@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Inter:wght@500&family=JetBrains+Mono:wght@100;400&family=Mulish:wght@400;600;800&family=Open+Sans:wght@300&family=Staatliches&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: mulish;
+}
+
+body {
+    background-color: #121214;
+    display: grid;
+    place-content: center;
+    padding: 72px;
+}
+
+header h1 {
+    color: #02799D;
+    font-weight: 800;
+    font-size: 59px;
+}
+
+header p {
+    color: #E1E1E6;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 366px);
+    gap: 44px 60px;
+    margin-top: 62px;
+}
+
+.card {
+    background-color: #202024;
+    border: 2px solid #323238;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.card p {
+    color: #C4C4CC;
+    margin: 24px;
+    font-size: 19px;
+}
+
+.card h2 {
+    color: #E1E1E6;
+    padding: 24px 32px 0;
+    font-size: 36px;
+}
